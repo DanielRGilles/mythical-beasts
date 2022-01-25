@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS creatures;
 CREATE TABLE creatures (
   id BIGINT GENERATED ALWAYS AS IDENTITY,
   title TEXT NOT NULL,
-  class TEXT NOT NULL,
+  species TEXT NOT NULL,
   lifespan TEXT NOT NULL,
   environment TEXT NOT NULL,
   img_url TEXT NOT NULL
